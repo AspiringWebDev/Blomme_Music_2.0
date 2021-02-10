@@ -18,7 +18,9 @@ overflow-x: hidden;
 overflow-y:auto;
 }
 
-
+p{
+    margin-right: 15px;
+}
 
 .all{
 display:block;
@@ -73,10 +75,10 @@ background-color: rgba(0, 0, 0, 0.8);
 box-shadow: 0 0 5px 0 #000000;
 color: whitesmoke;
 letter-spacing: 0.5em;
-font-weight: 700;
+font-weight: 500;
 text-transform: uppercase;
 letter-spacing: 0.5em;
-font-size: 12px;
+font-size: 10px;
 margin: 30px auto 0 auto;
 cursor: pointer;
 transition:all 0.5s;
