@@ -1,13 +1,18 @@
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { 
+@media (max-width:375px)
+    
+    { 
         p{
             font-size: 12px;
             margin-right: 15px;
         }
     }
 
-   
+@media (max-width: 414px)  {
+    p{
+            font-size: 12px;
+            margin-right: 15px;
+    } 
+
+}
 
     
