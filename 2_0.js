@@ -77,9 +77,7 @@ $(document).ready(function () {
         $('.btt-footer').fadeIn(500);
     });
 
-    $(function () {
-        $('.myAudio').audioPlayer();
-    });
+    
 
     /*Video Controls*/
 
