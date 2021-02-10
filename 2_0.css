@@ -8,8 +8,8 @@ margin: 0;
 padding: 0;
 font-family: 'Lato', sans-serif;
 font-weight: 300;
-background-color: #e3e3e3;
-color: #333;
+background-color: #383E42;
+color: whitesmoke;
 font-size:14px;
 line-height:1.5em;
 height: 100%;
@@ -17,6 +17,8 @@ width: 100%;
 overflow-x: hidden;
 overflow-y:auto;
 }
+
+
 
 .all{
 display:block;
@@ -51,7 +53,7 @@ display: none;
 */
 
 a{
-color:#999;
+color:whitesmoke;
 text-decoration:none;
 }
 
@@ -63,13 +65,13 @@ btn{
 font-family:'Lato', sans-serif;
 border-width: 1px;
 border-style: solid;
-border-color: #999;
+border-color: whitesmoke;
 padding: 8px 8px 8px 14px; 
 text-align: center;
 background-color: rgba(0, 0, 0, 0.8);
 -webkit-box-shadow: 0 0 5px 0 #000000;
 box-shadow: 0 0 5px 0 #000000;
-color: #efefef;
+color: whitesmoke;
 letter-spacing: 0.5em;
 font-weight: 700;
 text-transform: uppercase;
@@ -87,7 +89,7 @@ box-shadow: 0 0 10px 0 #000000;
 }
 
 btn a{
-color:#fff;
+color:whitesmoke;
 text-decoration:none;
 }
 
@@ -118,7 +120,7 @@ transition:all 0.5s;
 
 
 
-a{color:#666;}
+a{color:whitesmoke;}
 
 
 h1{
@@ -136,9 +138,10 @@ text-transform: uppercase;
 font-weight: 600;
 letter-spacing: 0.25em;
 font-size: 18px;
+color: whitesmoke;
 border-width: 0 0 1px 0;
 border-style: solid;
-border-color: #333;
+border-color: whitesmoke;
 font-size: calc(70% + 0.5vw) !important;
 }
 
@@ -218,6 +221,16 @@ background-position: center top;
 background-attachment: scroll;
 clear:both;
 overflow:hidden;
+}
+
+.full-panel h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: western bang bang;
+    font-size: 60px !important;
+}
+ .full-panel hr{
+    width: 60%;
 }
 
 .half-panel{
@@ -883,6 +896,7 @@ margin: 0;
 .quarter, .half, .three-quarters, .sixty, .forty {
 width: calc(100% - 60px);
 }
+
 
 .pull-right, .pull-left{
 float:none !important;
