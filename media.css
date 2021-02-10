@@ -1,9 +1,4 @@
-@media (max-width:360px){
-    p{
-        font-size:10px !important;
-        padding-right: 15px;
-    }
-}
+
 
 
 
@@ -14,7 +9,7 @@
     { 
         p{
             font-size: 12px;
-            margin-right: 15px;
+            
         }
     }
 
