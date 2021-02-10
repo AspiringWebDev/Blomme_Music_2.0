@@ -18,9 +18,7 @@ overflow-x: hidden;
 overflow-y:auto;
 }
 
-p{
-    margin-right: 15px;
-}
+
 
 .all{
 display:block;
@@ -368,7 +366,7 @@ margin: 20px 0 20px 0 !important;
 
 .play-audio{
 cursor:pointer;
-text-align:left;
+text-align:left  !important;
 }
 
 .play-audio .material-icons{
