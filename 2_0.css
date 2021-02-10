@@ -616,7 +616,7 @@ height:29px;
 cursor:context-menu;
 opacity:0.6;
 transition:all 0.5s;
-background-color:#fff;
+color: whitesmoke;
 border-radius:50%;
 -webkit-border-radius:50%;
 text-align:center;
